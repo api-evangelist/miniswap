@@ -1,7 +1,25 @@
 aid: miniswap
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/miniswap.png
 name: Miniswap
-description: Miniswap is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Miniswap is a Y Combinator (Fall 2025) startup building an online marketplace
+  for complex hobbies, starting with tabletop gaming miniatures such as Warhammer. The
+  platform maintains a catalog of more than 20,000 unique miniatures with detailed product
+  information, and lets sellers photograph an item and have Miniswap automatically generate
+  an accurate, detailed listing. It targets the roughly $20 billion tabletop games industry
+  and was founded by Zak Singh and Will Hanna, who met at Cambridge. Miniswap is a
+  consumer-facing web marketplace at miniswap.gg; as of this enrichment pass it publishes
+  no public developer API, SDKs, documentation portal, or discovery artifacts.
 url: https://raw.githubusercontent.com/api-evangelist/miniswap/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +29,29 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Marketplace
+- Ecommerce
+- Tabletop Gaming
+- Warhammer
+- Miniatures
+- Hobbies
+- Y Combinator
 apis: []
+common:
+- type: Website
+  url: https://miniswap.gg
+- type: Company
+  url: https://www.ycombinator.com/companies/miniswap
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
